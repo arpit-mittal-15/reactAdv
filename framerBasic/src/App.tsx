@@ -7,6 +7,9 @@
 // import Drag from "./components/Drag";
 // import ImageGallery from "./components/ImageGallery";
 // import AnimatedShape from "./components/AnimatedShape";
+import AnimatedGallery from "./components/AnimatedGallery";
+import Modal from "./components/Modal";
+import Sidebar from "./components/Sidebar";
 import Stagger from "./components/Stagger";
 
 const App = () => {
@@ -20,7 +23,10 @@ const App = () => {
       {/* <Drag /> */}
       {/* <ImageGallery /> */}
       {/* <AnimatedShape /> */}
-      <Stagger />
+      {/* <Stagger /> */}
+      {/* <AnimatedGallery /> */}
+      {/* <Sidebar /> */}
+      <Modal />
     </div>
   );
 };
