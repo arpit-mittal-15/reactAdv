@@ -7,10 +7,12 @@
 // import Drag from "./components/Drag";
 // import ImageGallery from "./components/ImageGallery";
 // import AnimatedShape from "./components/AnimatedShape";
+import Accordian from "./components/Accordian";
 import AnimatedGallery from "./components/AnimatedGallery";
 import Modal from "./components/Modal";
 import Sidebar from "./components/Sidebar";
 import Stagger from "./components/Stagger";
+import ToastNotification from "./components/ToastNotification";
 
 const App = () => {
   return (
@@ -26,7 +28,9 @@ const App = () => {
       {/* <Stagger /> */}
       {/* <AnimatedGallery /> */}
       {/* <Sidebar /> */}
-      <Modal />
+      {/* <Modal /> */}
+      {/* <Accordian /> */}
+      <ToastNotification />
     </div>
   );
 };
