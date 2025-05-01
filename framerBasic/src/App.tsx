@@ -12,6 +12,11 @@ import AnimatedGallery from "./components/AnimatedGallery";
 import Modal from "./components/Modal";
 import Sidebar from "./components/Sidebar";
 import Stagger from "./components/Stagger";
+import StaggeredButtonPress from "./components/StaggeredButtonPress";
+import StaggeredGridLayout from "./components/StaggeredGridLayout";
+import StaggeredList from "./components/StaggeredList";
+import StaggeredTextReveal from "./components/StaggeredTextReveal";
+import SwipeableCard from "./components/SwipeableCard";
 import ToastNotification from "./components/ToastNotification";
 
 const App = () => {
@@ -30,7 +35,12 @@ const App = () => {
       {/* <Sidebar /> */}
       {/* <Modal /> */}
       {/* <Accordian /> */}
-      <ToastNotification />
+      {/* <ToastNotification /> */}
+      {/* <SwipeableCard /> */}
+      {/* <StaggeredButtonPress /> */}
+      {/* <StaggeredGridLayout /> */}
+      {/* <StaggeredTextReveal /> */}
+      <StaggeredList />
     </div>
   );
 };
