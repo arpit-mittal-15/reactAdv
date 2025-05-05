@@ -14,6 +14,8 @@
 // import Stagger from "./components/Stagger";
 // import StaggeredButtonPress from "./components/StaggeredButtonPress";
 // import StaggeredGridLayout from "./components/StaggeredGridLayout";
+import Carousel from "./components/Carousel";
+import ScrollIndicator from "./components/ScrollIndicator";
 import StaggeredList from "./components/StaggeredList";
 // import StaggeredTextReveal from "./components/StaggeredTextReveal";
 // import SwipeableCard from "./components/SwipeableCard";
@@ -40,7 +42,9 @@ const App = () => {
       {/* <StaggeredButtonPress /> */}
       {/* <StaggeredGridLayout /> */}
       {/* <StaggeredTextReveal /> */}
-      <StaggeredList />
+      {/* <StaggeredList /> */}
+      {/* <ScrollIndicator /> */}
+      <Carousel />
     </div>
   );
 };

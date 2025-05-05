@@ -1,23 +1,22 @@
 @import "tailwindcss";
 
-*{
-  /* margin: 0;
-  padding: 0; */
-  box-sizing: border-box;
+body {
+  background: #000;
 }
 
-body{
-  background-color: #0d1017;
+button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  font-size: 1.5rem;
 }
 
-.box{
-  width: 150px;
-  height: 150px;
-  /* border-radius: 100%; */
-  background-color: yellow;
+button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
 }
